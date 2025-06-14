@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo.png" alt="Genesis Pulse Logo" width="120" />
+  <img src="docs/images/Genesis Pulse (GEN).png" alt="Genesis Pulse Logo" width="120" />
   <h1 align="center">Genesis Pulse <sup>($GEN)</sup></h1>
   <p align="center"><em>Passive Solana arbitrage opportunity scanner</em></p>
   <p align="center">
