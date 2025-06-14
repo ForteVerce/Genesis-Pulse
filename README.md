@@ -15,7 +15,14 @@
       <img src="https://img.shields.io/github/license/ForteVerce/Genesis-Pulse" alt="License"/>
     </a>
   </p>
+  <!-- Pump.fun Buy Button -->
+  <p align="center">
+    <a href="https://pump.fun/coin/8R4crFMGzo8rSeWPt9KG6UnSYqUE7VWvzgBWtoHwpump" target="_blank">
+      <img src="https://img.shields.io/badge/Buy%20%24GEN%20on%20Pump.fun-05F0D7?style=for-the-badge&logo=solana&logoColor=white" alt="Buy on Pump.fun">
+    </a>
+  </p>
 </p>
+
 
 
 ---
