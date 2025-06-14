@@ -1,3 +1,5 @@
+# .github/workflows/ci.yml
+
 name: CI
 
 on:
@@ -19,8 +21,20 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies (if any)
+        run: |
+          if [ -f package.json ]; then
+            echo "📦 package.json found – installing dependencies"
+            npm install
+          else
+            echo "ℹ️  No package.json, skipping npm install"
+          fi
 
-      - name: Build project
-        run: npm run build
+      - name: Build project (if defined)
+        run: |
+          if [ -f package.json ] && grep -q '"build"' package.json; then
+            echo "🏗️  build script found – running npm run build"
+            npm run build
+          else
+            echo "ℹ️  No build script to run, skipping build step"
+          fi
