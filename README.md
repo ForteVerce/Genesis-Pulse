@@ -1,10 +1,12 @@
 <p align="center">
-  <img src="docs/images/Genesis Pulse (GEN).jpg" alt="Genesis Pulse Logo" width="120" />
+  <a href="https://github.com/ForteVerce/Genesis-Pulse">
+    <img src="docs/images/Genesis%20Pulse%20(GEN).jpg" alt="Genesis Pulse Logo" width="120" />
+  </a>
   <h1 align="center">Genesis Pulse <sup>($GEN)</sup></h1>
   <p align="center"><em>Passive Solana arbitrage opportunity scanner</em></p>
   <p align="center">
-    <a href="https://github.com/ForteVerce/Genesis-Pulse/actions">
-      <img src="https://img.shields.io/github/actions/workflow/status/ForteVerce/Genesis-Pulse/ci.yml?branch=main" alt="CI Status"/>
+    <a href="https://github.com/ForteVerce/Genesis-Pulse/actions/workflows/ci.yml">
+      <img src="https://github.com/ForteVerce/Genesis-Pulse/actions/workflows/ci.yml/badge.svg" alt="CI Status"/>
     </a>
     <a href="https://github.com/ForteVerce/Genesis-Pulse/releases">
       <img src="https://img.shields.io/github/v/release/ForteVerce/Genesis-Pulse" alt="Latest Release"/>
@@ -14,6 +16,7 @@
     </a>
   </p>
 </p>
+
 
 ---
 
